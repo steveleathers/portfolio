@@ -43,7 +43,7 @@ display: block;
 @media screen and (max-width: 599px) {
   .text{
     width: 92%;
-    margin: 0 auto;
+    margin: 3px auto;
     padding-top:20px;
   }
 }
