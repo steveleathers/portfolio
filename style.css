@@ -1,0 +1,40 @@
+p {
+  font-family: "mrs-eaves";
+  font-size: 22px;
+  line-height: 30px;
+  color:#333;
+}
+h2{
+  font-family: "mrs-eaves";
+  color: #000;
+}
+html, body {
+margin: 0;
+padding: 0;
+}
+li{
+  font-family: "mrs-eaves";
+  font-size: 16px;
+  line-height: 20px;
+  color:#333;
+}
+a:link{
+  color:#666;
+  text-decoration: none;
+}
+a:visited{
+  color:#666;
+}
+ul{
+  margin-top:0px;
+}
+img {
+max-width: 100%;
+height: auto;
+display: block;
+}
+.text{
+width: 60%;
+margin: 0 auto;
+padding-top:100px;
+}
