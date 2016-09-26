@@ -40,11 +40,10 @@ display: block;
     padding-top:100px;
   }
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 599px) {
   .text{
     width: 92%;
     margin: 0 auto;
     padding-top:20px;
-    font-size: 1.2em;
   }
 }
