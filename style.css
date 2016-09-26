@@ -42,6 +42,6 @@ display: block;
 @media screen and (max-width: 600px) {
   .text{
     width: 92%;
-    margin: 4px auto;
+    margin: 0 auto;
     padding-top:20px;
   }
