@@ -21,6 +21,19 @@
         padding: 0;
         -webkit-font-smoothing: antialiased;
       }
+
+      .map {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+      }
+
+      .pad2 {
+        padding: 20px;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+      }
     </style>
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <script src="https://use.typekit.net/wid2xdq.js"></script>
@@ -43,16 +56,16 @@
   </body>
 </html>
 <script>
-mapboxgl.accessToken = 'pk.eyJ1Ijoic3RldmVsZWF0aGVycyIsImEiOiI3NUNNVXVnIn0.QyrTdSaE7cxc_OeVtZyM0Q';
-// This adds the map to your page
-var map = new mapboxgl.Map({
-  // container id specified in the HTML
-  container: 'map',
-  // style URL
-  style: 'mapbox://styles/steveleathers/cituo7zj6003a2inzqq6psqvb',
-  // initial position in [long, lat] format
-  center: [-122.034084, 44.909671],
-  // initial zoom
-  zoom: 11
-});
+  mapboxgl.accessToken = 'pk.eyJ1Ijoic3RldmVsZWF0aGVycyIsImEiOiI3NUNNVXVnIn0.QyrTdSaE7cxc_OeVtZyM0Q';
+  // This adds the map to your page
+  var map = new mapboxgl.Map({
+    // container id specified in the HTML
+    container: 'map',
+    // style URL
+    style: 'mapbox://styles/steveleathers/cituo7zj6003a2inzqq6psqvb',
+    // initial position in [long, lat] format
+    center: [-122.034084, 44.909671],
+    // initial zoom
+    zoom: 11
+  });
 </script>
