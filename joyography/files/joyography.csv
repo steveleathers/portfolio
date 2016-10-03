@@ -1,3 +1,4 @@
+"name", "comment", "lat", "lon", "id"
 "Steve Leathers","I used to live here","42.51196670532","-96.46051788330","4"
 "Lisa Ciccarello","So many BBQs","45.50265502930","-122.64461517334","5"
 "Steve L","I love my home!","45.55801010132","-122.63717651367","6"
@@ -26,7 +27,7 @@
 "Chuck","after class gets out, we go here to smoke weed. you can see people coming and going, so it's like hiding in plain sight. ","45.50912094116","-122.68695831299","29"
 "Catherine","The tin foil sculptures.","45.52345275879","-122.67620849609","30"
 "Catherine Akins","The tin foil sculptures.","45.51731872559","-122.66265869141","31"
-"cay","I saw a rainbow on my birthday when I was crossing the Bridge toward SE on Burnside bridge. 
+"cay","I saw a rainbow on my birthday when I was crossing the Bridge toward SE on Burnside bridge.
 It made me realize that there won't be a rainbow without rain. ","45.52301025391","-122.67253112793","32"
 "peter","xhurch!","45.55634689331","-122.64485931396","33"
 "Teresa Flores","This is the turn around point on my 3 mile run while I'm visiting Portland.  Nice air.","45.51436614990","-122.65975189209","34"
@@ -109,7 +110,7 @@ It made me realize that there won't be a rainbow without rain. ","45.52301025391
 "Lace Pal","I took my first stage dives to my favorite punk band, Ceremony.","45.52345275879","-122.67620849609","107"
 "brian collier","saw someone catch & release a sturgeon","45.51702499390","-122.66746520996","108"
 "Peter Kingstone","Pedestrian bridge","45.50158691406","-122.65657806396","109"
-"melanie","when my girl friend picked me up at the airport, ythere wasn't any room in her car for me so she started getting rid of stuff at the curb. First item was a easter basket of colorful plastic eggs. She pulled it out of the car and placed it at the curb. all of al sudden we all realized the act may be illegal, so sh 
+"melanie","when my girl friend picked me up at the airport, ythere wasn't any room in her car for me so she started getting rid of stuff at the curb. First item was a easter basket of colorful plastic eggs. She pulled it out of the car and placed it at the curb. all of al sudden we all realized the act may be illegal, so sh
 e put it back in the car. It was a beautiful memory ","45.58961105347","-122.59211730957","110"
 "Erik Ferguson","This nature park has several miles of paved wheelchair accessible trail. My partner and I were married here.","45.51817703247","-122.83853912354","111"
 "Melissa","Imax ","0.00000000000","0.00000000000","112"
