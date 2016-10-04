@@ -102,20 +102,20 @@
   mapboxgl.accessToken = 'pk.eyJ1Ijoic3RldmVsZWF0aGVycyIsImEiOiI3NUNNVXVnIn0.QyrTdSaE7cxc_OeVtZyM0Q';
   var map = new mapboxgl.Map({
     container: 'map',
-    style: 'mapbox://styles/steveleathers/citw1xtu8006a2inxoy96fe6g',
+    style: 'mapbox://styles/steveleathers/citw2v3tj006h2ioldulilvhf',
     center: [-122.6680967, 45.521510],
     zoom: 11
   });
-  // 
-  //   map.once('style.load', function() {
-  //     geojson_src = new mapboxgl.GeoJSONSource({
-  //         data: 'files/joyographyresults.geojson',
-  //         maxzoom: 16,
-  //         buffer: 10,
-  //         tolerance: 10
-  //     });
-  //     map.addSource('geojson', geojson_src);
-  // });
+
+    map.once('style.load', function() {
+      geojson_src = new mapboxgl.GeoJSONSource({
+          data: 'files/joyographyresults.geojson',
+          maxzoom: 16,
+          buffer: 10,
+          tolerance: 10
+      });
+      map.addSource('geojson', geojson_src);
+  });
 
   map.on('click', function (e) {
       var features = map.queryRenderedFeatures(e.point, { layers: ['joyography'] });
