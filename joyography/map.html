@@ -140,7 +140,7 @@
       // based on the feature found.
       var popup = new mapboxgl.Popup()
           .setLngLat(feature.geometry.coordinates)
-          .setHTML(currentFeature.properties)
+          .setHTML(Feature.properties.name)
           .addTo(map);
   });
 
