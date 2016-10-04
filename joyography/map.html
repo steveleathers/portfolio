@@ -106,16 +106,16 @@
     center: [-122.6680967, 45.521510],
     zoom: 11
   });
-
-    map.once('style.load', function() {
-      geojson_src = new mapboxgl.GeoJSONSource({
-          data: 'files/joyographyresults.geojson',
-          maxzoom: 16,
-          buffer: 10,
-          tolerance: 10
-      });
-      map.addSource('geojson', geojson_src);
-  });
+  // 
+  //   map.once('style.load', function() {
+  //     geojson_src = new mapboxgl.GeoJSONSource({
+  //         data: 'files/joyographyresults.geojson',
+  //         maxzoom: 16,
+  //         buffer: 10,
+  //         tolerance: 10
+  //     });
+  //     map.addSource('geojson', geojson_src);
+  // });
 
   map.on('click', function (e) {
       var features = map.queryRenderedFeatures(e.point, { layers: ['joyography'] });
