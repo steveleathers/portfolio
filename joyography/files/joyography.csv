@@ -1,9 +1,7 @@
 "name","description","lat","lon","id"
-"Steve Leathers","I used to live here","42.51196670532","-96.46051788330","4"
 "Lisa Ciccarello","So many BBQs","45.50265502930","-122.64461517334","5"
 "Steve L","I love my home!","45.55801010132","-122.63717651367","6"
 "Steve","Love my job!","45.51733779907","-122.67488098145","7"
-"Steve","love this street","46.44329833984","-95.13880920410","8"
 "steve ","love that bar","45.52206039429","-122.67272949219","9"
 "steve","love this corner","45.55902862549","-122.63686370850","10"
 "leathers","my first apartment. loved that view so haaaaaard","45.52350997925","-122.68923950195","11"
@@ -58,9 +56,7 @@ It made me realize that there won't be a rainbow without rain. ","45.52301025391
 "brette gabel","babies first scotch egg. with pancakes... so delightful.","45.55903625488","-122.64887237549","59"
 "brette gabel","a day spent in the japanese gardens with my best friend. ","45.51913452148","-122.70675659180","60"
 "Pete Brook","Birthday, whisky, blossoms, Brendan, Amy, Aaron, Champagne at the press of a button.","45.55437469482","-122.69149780273","61"
-"Brendan Seibel","Monkey Tennis
-
-","45.55411529541","-122.69001770020","62"
+"Brendan Seibel","Monkey Tennis","45.55411529541","-122.69001770020","62"
 "Bog","I'm here. I'm alive.","45.50846862793","-122.68273925781","63"
 "Travis","Playing pick-up soccer on a lazy Saturday.  ","45.54669570923","-122.64111328125","64"
 "Tessie","This is the moment that I realized that my brother would be my best friend until the end of my life.
@@ -113,7 +109,6 @@ It made me realize that there won't be a rainbow without rain. ","45.52301025391
 "melanie","when my girl friend picked me up at the airport, ythere wasn't any room in her car for me so she started getting rid of stuff at the curb. First item was a easter basket of colorful plastic eggs. She pulled it out of the car and placed it at the curb. all of al sudden we all realized the act may be illegal, so sh
 e put it back in the car. It was a beautiful memory ","45.58961105347","-122.59211730957","110"
 "Erik Ferguson","This nature park has several miles of paved wheelchair accessible trail. My partner and I were married here.","45.51817703247","-122.83853912354","111"
-"Melissa","Imax ","0.00000000000","0.00000000000","112"
 "melissa","The IMAX at OMSI. Whenever I feel down go watch little kids get crazy excited about dinosaurs. Makes me feel better.","45.50849914551","-122.66593170166","113"
 "Melissa","Moved here to repair a broken heart. Met lots a shady characters. Brought a few of them home with me. Here was home. ","45.50450515747","-122.64257812500","114"
 "Jb","Spicy drink!!","45.52633285522","-122.68457794189","115"
@@ -191,6 +186,5 @@ e put it back in the car. It was a beautiful memory ","45.58961105347","-122.592
 "Donald Dunbar",,"45.51229095459","-122.63239288330","186"
 "Donald Dunbar",,"45.52467346191","-122.67456817627","187"
 "Donald Dunbar",,"45.51758575439","-122.65535736084","188"
-"Evey",,"30.26381874084","-97.77139282227","189"
 "Gene",,"45.55688858032","-122.67626953125","190"
 "D","I dug two poets out of a blizzard and then drove here drinking the lemonade L. left me. It's hard to get out of bed here beyond anywhere else in America. ","45.50225830078","-122.64430999756","191"
