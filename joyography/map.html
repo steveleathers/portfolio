@@ -114,11 +114,6 @@
           tolerance: 10
       });
       map.addSource('geojson', geojson_src);
-      map.batch(function(batch) { //add each layer to the map in a batch
-          for (var p = 0; p < layers.length; p++) {
-              batch.addLayer(layers[p]);
-          }
-      });
   });
 
   function createPopUp(currentFeature) {
