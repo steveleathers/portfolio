@@ -108,7 +108,7 @@
 
     map.once('style.load', function() {
       geojson_src = new mapboxgl.GeoJSONSource({
-          data: geojsonData,
+          data: url('files/joyography.geojson'),
           maxzoom: 16,
           buffer: 10,
           tolerance: 10
