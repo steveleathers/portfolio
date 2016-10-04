@@ -109,7 +109,7 @@
 
     map.once('style.load', function() {
       geojson_src = new mapboxgl.GeoJSONSource({
-          data: 'files/joyography.geojson',
+          data: 'files/joyographyresults.geojson',
           maxzoom: 16,
           buffer: 10,
           tolerance: 10
@@ -130,7 +130,7 @@
       // based on the feature found.
       var popup = new mapboxgl.Popup()
           .setLngLat(feature.geometry.coordinates)
-          .setHTML('<h3>' + JSON.stringify(feature.properties) + '</h3>' +
+          .setHTML('<h3>' + feature.properties.description + '</h3>' +
           '<h4> -' + feature.properties.name + '</h4>')
           .addTo(map);
   });
