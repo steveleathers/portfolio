@@ -138,14 +138,14 @@ map.on('load', function() {
 
   map.addSource("cashsales", {
       "type": "geojson",
-      "data": 'cashsales.geojson'
+      "data": "cashsales.geojson",
+      "marker-symbol": "house"
     });
 
     map.addLayer({
             "id": "cashsales",
             "type": "line",
-            "source": "cashsales",
-            "marker-symbol": "house"
+            "source": "cashsales"
     });
     // Data courtesy of http://earthquake.usgs.gov/
     // Query for significant earthquakes in 2015 URL request looked like this:
