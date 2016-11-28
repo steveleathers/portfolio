@@ -138,13 +138,12 @@ map.on('load', function() {
 
   map.addSource("cashsales", {
       "type": "geojson",
-      "data": "cashsales.geojson",
-      "marker-symbol": "house"
+      "data": "cashsales.geojson"
     });
 
     map.addLayer({
             "id": "cashsales",
-            "type": "line",
+            "type": "circle",
             "source": "cashsales"
     });
     // Data courtesy of http://earthquake.usgs.gov/
