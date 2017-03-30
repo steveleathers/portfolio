@@ -32,26 +32,7 @@ map.on('load', function() {
       "type": "geojson",
       "data": 'mgSales.geojson'
     });
-    map.addLayer({
-        'id': '3d-buildings',
-        'source': 'composite',
-        'source-layer': 'building',
-        'filter': ['==', 'extrude', 'true'],
-        'type': 'fill-extrusion',
-        'minzoom': 15,
-        'paint': {
-            'fill-extrusion-color': '#aaa',
-            'fill-extrusion-height': {
-                'type': 'identity',
-                'property': 'height'
-            },
-            'fill-extrusion-base': {
-                'type': 'identity',
-                'property': 'min_height'
-            },
-            'fill-extrusion-opacity': .6
-        }
-    });
+
     map.addLayer({
             "id": "sales",
             "type": "symbol",
