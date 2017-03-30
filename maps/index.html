@@ -20,8 +20,6 @@ var map = new mapboxgl.Map({
     style: 'mapbox://styles/mapbox/light-v9',
     center: [-122.667821, 45.521908],
     zoom: 15,
-    pitch: 15,
-    bearing: 0,
     container: 'map'
 });
 
@@ -38,7 +36,11 @@ map.on('load', function() {
             "type": "symbol",
             "source": "sales",
             "layout": {
-                "icon-image": "home-15"
+                "icon-image": "home-15",
+
+            },
+            "paint": {
+              "text-size": 8
             }
     });
 });
