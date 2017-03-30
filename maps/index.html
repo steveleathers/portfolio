@@ -26,10 +26,14 @@ var map = new mapboxgl.Map({
 // the 'building' layer in the mapbox-streets vector source contains building-height
 // data from OpenStreetMap.
 map.on('load', function() {
-  map.addSource("sales", {
+  map.addSource("listings", {
       "type": "geojson",
-      "data": 'mgSales.geojson'
+      "data": 'mgListings.geojson'
     });
+    map.addSource("sales", {
+        "type": "geojson",
+        "data": 'mgSales.geojson'
+      });
 
     map.addLayer({
             "id": "sales",
@@ -38,9 +42,15 @@ map.on('load', function() {
             "layout": {
                 "icon-image": "home-15",
 
-            },
-            "paint": {
-              "text-size": 8
+            }
+    });
+    map.addLayer({
+            "id": "listings",
+            "type": "symbol",
+            "source": "listings",
+            "layout": {
+                "icon-image": "home-15",
+
             }
     });
 });
